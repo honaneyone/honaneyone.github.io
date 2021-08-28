@@ -26,3 +26,10 @@ img {
   max-width: 100%;
   display: block;
 }
+
+code:not([class]) {
+  background-color: #f5f4f4;
+  padding: 0.2em;
+  margin: 0.3em;
+  border-radius: 5%;
+}
