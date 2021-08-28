@@ -42,3 +42,21 @@ li.task-list-item {
     list-style: none;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    position: sticky;
+    padding: 1rem 2rem;
+}
+td {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    font-weight: normal;
+    font-size: .875rem;
+    color: #666;
+    background: #f5f2f0;
+}
