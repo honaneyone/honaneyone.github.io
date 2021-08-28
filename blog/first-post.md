@@ -15,7 +15,10 @@ date: "2021-08-29"
     - cccc
       - dddd
 
-あいだに`hogehoge`とか
+**強調表示**とか     
+*斜体* とか    
+~~打ち消し線~~とか    
+あいだに`hogehoge`とか 
       
 ```markdown
 hugahuga
@@ -26,3 +29,14 @@ hugahuga
 const string = 'Hello World';
 let a = 3;
 ```
+
+| Beep |   No.  |   Boop |
+| :--- | :----: | -----: |
+| beep |  1024  |    xyz |
+| boop | 338845 |    tuv |
+| foo  |  10106 | qrstuv |
+| bar  |   45   |   lmno |
+
+
+- [ ] check1
+- [ ] check2

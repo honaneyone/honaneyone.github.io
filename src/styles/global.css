@@ -2,34 +2,43 @@
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Noto Sans JP', sans-serif;
-  line-height: 1.6;
-  font-size: 18px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 a {
-  color: #0070f3;
-  text-decoration: none;
+    color: #0070f3;
+    text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 img {
-  max-width: 100%;
-  display: block;
+    max-width: 100%;
+    display: block;
 }
 
 code:not([class]) {
-  background-color: #f5f4f4;
-  padding: 0.2em;
-  margin: 0.3em;
-  border-radius: 5%;
+    background-color: #f5f2f0;
+    padding: 0.2em 0.4em;
+    margin: 0.3em;
+    border-radius: 5%;
 }
+
+ul.contains-task-list {
+    padding-left: 0;
+}
+
+li.task-list-item {
+    list-style: none;
+}
+
